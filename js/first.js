@@ -8,11 +8,11 @@ let koney = true;
 // }
 // const output: number = add(3, 4);
 //multi purpose
-function add(first, second) {
+function addNew(first, second) {
     const result = first + second;
     return result;
 }
-const output = add(3, 4);
+const output = addNew(3, 4);
 function doubleConsole(number) {
     console.log(2 * number);
 }

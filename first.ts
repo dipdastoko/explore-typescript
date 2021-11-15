@@ -11,11 +11,11 @@ let koney: boolean = true;
 // const output: number = add(3, 4);
 
 //multi purpose
-function add(first: number | string, second: number | string): number | string {
-    const result: string | number = first + second;
+function addNew(first: number, second: number): number {
+    const result = first + second;
     return result;
 }
-const output: string | number = add(3, 4);
+const output: string | number = addNew(3, 4);
 
 function doubleConsole(number: number): void {
     console.log(2 * number);
